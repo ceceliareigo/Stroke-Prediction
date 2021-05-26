@@ -21,9 +21,15 @@ Attribute Information
 
 Nearly 800,000 people in the United States suffer from a stroke each year, with about three in four being first-time strokes. 80% of the time these strokes can be prevented, so putting in place proper education on the signs of stroke is very important.
 The objective of this study is to construct a prediction model for predicting stroke and to assess the accuracy of the model. We will explore seven different models to see which produces reliable and repeatable results. The models are: Decision Tree, Logistic Regression, Random Forest, Support Vector Machine, K Nearest Neighbour, Naive Bayes and KMeans Clustering. From the prediction outcome of the models, the best performance model will undergo the cross validation process to evaluate its repeatability.
+
 Conclusion
+
 Various model was used to predict whether a person is subjected to stroke. Naive Bayes model yields a very good performance as indicated by the model accuracy which was found to be 87.28%.
+
 Using the mean cross-validation, we can conclude that we expect the model to be around 87.31% accurate on average.
+
 If we look at all the 10 scores produced by the 10-fold cross-validation, we can also conclude that there is a relatively small variance in the accuracy between folds, hence the model is independent of the particular folds used for training.
+
 Our original model accuracy is 87.28% and the mean cross-validation accuracy is 87.31%. Thus, the 10-fold cross-validation accuracy does result in performance improvement for this model.
+
 Naive Bayes model can be further improve by tuning hyperparameters to get the better result or adjusting the probablity threshold to improve its performance.
